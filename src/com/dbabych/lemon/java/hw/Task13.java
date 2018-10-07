@@ -1,7 +1,7 @@
 package com.dbabych.lemon.java.hw;
 
-/*В переменной n хранится вещественное число с ненулевой дробной частью. 
- * Создайте программу, округляющую число n до ближайшего целого и выводящую результат на экран.*/
+/* The variable n stores a real number with a non-zero fractional part.
+ * Create a program rounding the number n to the nearest integer and displaying the result on the screen */
 
 public class Task13 {
 

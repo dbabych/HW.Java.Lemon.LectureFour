@@ -1,6 +1,6 @@
 package com.dbabych.lemon.java.hw;
 
-/* Ќапишите метод, который будет увеличивать заданный элемент массива на 10%. */
+/* Write a method that will increase the given array element by 10%. */
 
 public class Task17 {
 

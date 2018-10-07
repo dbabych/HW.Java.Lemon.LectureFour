@@ -1,6 +1,6 @@
 package com.dbabych.lemon.java.hw;
 
-/*Напишите программу которая определяет какое из чисел больше*/
+/*  Write a program that determines which of the numbers is greater */
 
 public class Task4 {
 
@@ -8,9 +8,9 @@ public class Task4 {
 		int a = 21;
 		int b = 17;
 		if (a > b) {
-			System.out.println(" Число а больше от числа b");
+			System.out.println(" The number (a) is greater than the number (b)");
 		} else {
-			System.out.println(" Число а меньше от числа b");
+			System.out.println(" The number (a) is less than the number (b)");
 		}
 	}
 }

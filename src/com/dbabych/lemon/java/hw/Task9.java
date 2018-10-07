@@ -2,20 +2,21 @@ package com.dbabych.lemon.java.hw;
 
 import java.util.Scanner;
 
-/*Даны катеты прямоугольного треугольника. Найдите площадь, периметр и гипотенузу треугольника. */
+/* Given the legs of a right triangle. 
+ * Find the area, perimeter and hypotenuse of the triangle */
 
 public class Task9 {
 
 	public static void main(String[] args) {
-		System.out.print("Введите первый катет:  ");
+		System.out.print("Enter the first leg:  ");
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
-		System.out.print("Введите второй катет:  ");
+		System.out.print("Enter the second leg:  ");
 		int b = scan.nextInt();
-		int s = (int) (0.5 * a * b); // Находим площадь прям. треугольника ;
-		int c = (int) Math.sqrt((a * a) + (b * b)); // Находим гипотенузу;
-		int p = a + b + c; // Находим периметр;
-		System.out.println( " Гипотенуза прямоугольного теругольника  = " + c + "\n Его периметр =  " + p + "\n Его площадь " + s);
+		int s = (int) (0.5 * a * b);
+		int c = (int) Math.sqrt((a * a) + (b * b));
+		int p = a + b + c;
+		System.out.println("Hypotenuse = " + c + "\n" + "Perimeter =  " + p + "\n" + "Area = " + s);
 		scan.close();
 	}
 

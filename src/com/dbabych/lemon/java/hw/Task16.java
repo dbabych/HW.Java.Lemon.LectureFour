@@ -1,7 +1,7 @@
 package com.dbabych.lemon.java.hw;
 
-/*Напишите метод переводящий гривны в доллары по заданному курсу. 
- * В качестве аргументов передайте кол-во гривен и курс.*/
+/* Write a method that translates the grn into dollars at a given rate.
+ * As an argument, pass the number of grn and the course.*/
 
 public class Task16 {
 

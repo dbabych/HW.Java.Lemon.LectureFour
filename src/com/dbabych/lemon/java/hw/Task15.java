@@ -1,7 +1,6 @@
 package com.dbabych.lemon.java.hw;
 
-/* Сила тяжести на Луне примерно равна 17%, напишите программу, которая вычисляет ваш
-вес на Луне.*/
+/* The gravity on the moon is about 17%; write a program that calculates your weight on the moon.*/
 
 public class Task15 {
 

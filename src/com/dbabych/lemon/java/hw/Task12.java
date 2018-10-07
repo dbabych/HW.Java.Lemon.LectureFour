@@ -1,7 +1,7 @@
 package com.dbabych.lemon.java.hw;
 
-/*В переменной n хранится натуральное двузначное число. Создайте программу,
- * вычисляющую и выводящую на экран сумму цифр числа n.*/
+/* The variable n stores a natural two-digit number. 
+ * Create a program that calculates and displays the sum of digits of the number n */
 
 public class Task12 {
 
@@ -9,6 +9,6 @@ public class Task12 {
 		int n = 33;
 		int j = n / 10;
 		int f = n % 10;
-		System.out.println("Сумма цифр переменной n  = " + (j + f));
+		System.out.println("Sum of variable digits n  = " + (j + f));
 	}
 }
